@@ -12,39 +12,45 @@
 
 </head>
 <body>
-  <div class="l-container">
-    <main class="l-main">
+  <main class="l-main">
+    <div class="l-card">
       <div class="l-texts">
-        <img src="images/logo.svg" alt="Ping brand">
-        <h1 class="c-h1">We are launching <strong>soon</strong>!</h1>
+        <img src="images/logo.svg" alt="Ping brand" class="c-brand">
+        <h1 class="c-h1">We are launching <strong>soon!</strong></h1>
         <p class="c-text">Subscribe and get notified
         </p>
-        <div class="l-email">
-          <input placeholder="Your email adress" type="email" name="" id="" class="l-input">
-          <small class="c-error_-text">Please provide a valid email address</small>
+        <form class="l-email">
+          <div class="l-input__wrapper">
+            <label for="email">
+              <input placeholder="Your email adress" type="email" name="" id="email" class="l-input">
+            </label>
+            <small class="c-error_-text">Please provide a valid email address</small>
+          </div>
           <button type="submit" class="c-button">Notify Me</button>
+        </form>
+      </div>
+
+      <img src="images/illustration-dashboard.png" alt="decorative" class="c-image">
+
+      <div class="l-social">
+        <div class="l-social__links">
+          <ion-icon name="logo-facebook" class="c-social"></ion-icon>
+          <ion-icon name="logo-twitter" class="c-social"></ion-icon>
+          <ion-icon name="logo-instagram" class="c-social"></ion-icon>
         </div>
       </div>
 
-      <img src="images/illustration-dashboard.png" alt="decorative">
-
-      <div class="l-social__links">
-        <img src="" alt="" class="c-social__link">
-      </div>
-    </main>
-
-    <footer>
       <p class="c-text__footer">  &copy; Copyright Ping. All rights reserved.
       </p>
-    </footer>
-  </div>
+    </div>
 
+    
+      
+    
+  </main>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
-
-<!--
-  
-
-
--->
