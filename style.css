@@ -59,12 +59,15 @@ strong{
   border-color: var(--Pale-Blue);
   color: var(--Gray);
 }
+.l-input.error{
+  border-color: var(--Light-Red);
+}
 .c-error_-text{
   color: var(--Light-Red);
   margin: 8px 0 8px 26px;
   opacity: 0;
 }
-.c-button{
+.c-submit{
   width: 200px;
   height: 60px;
   border: none;
@@ -75,7 +78,7 @@ strong{
   cursor: pointer;
   transition: .25s ease-in-out;
 }
-.c-button:hover{
+.c-submit:hover{
   background-color: var(--Pale-Blue);
   box-shadow: 2px 2px 10px var(--Blue);
 }
@@ -138,7 +141,7 @@ strong{
     height: 40px;
     width: 280px;
   }
-  .c-button{
+  .c-submit{
     height: 40px;
     width: 100%;
   }
