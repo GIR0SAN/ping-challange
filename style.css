@@ -61,7 +61,7 @@ strong{
 }
 .c-error_-text{
   color: var(--Light-Red);
-  margin: 8px 0 0 26px;
+  margin: 8px 0 8px 26px;
   opacity: 0;
 }
 .c-button{
@@ -110,4 +110,40 @@ strong{
 .c-text__footer{
   font-size: 14px;
   color: var(--Gray);
+}
+
+@media screen and (max-width:375px){
+  .l-card{
+    width: 280px;
+  }
+  .c-brand{
+    width: 55px;
+    height: auto;
+    margin-bottom: 45px;
+  }
+  .c-h1{
+    font-size: 18px;
+    margin-bottom: 26px;
+  }
+  .c-text{
+    font-size: 14px;
+  }
+  .l-email{
+    flex-direction: column;
+  }
+  .l-input__wrapper{
+    width: 280px;
+  }
+  .l-input{
+    height: 40px;
+    width: 280px;
+  }
+  .c-button{
+    height: 40px;
+    width: 100%;
+  }
+  .c-image{
+    width: 280px;
+    margin: 70px 0 120px 0;
+  }
 }
